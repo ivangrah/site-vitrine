@@ -1,0 +1,1266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    color: black;
+}
+
+
+
+ body {
+    background-color: #686f8c;
+     
+     
+  }
+
+h1{
+
+    font-weight: bold;
+    
+}
+
+
+  /*css du logo  du header */
+.logo1{
+
+    height: 100px;
+    width: 100px;
+    margin-top: -20px;
+}
+
+.logo2{
+
+    height: 100px;
+    width: 100px;
+    margin-left: 70%;
+
+}
+
+
+/*css du logos de commande */
+
+.logo31{
+    height:100px ;
+    width: 100px;
+    border: 1px outset;
+    border-radius: 10px;
+     padding: 20px;
+     margin-left: 100px;
+        transition: transform 0.3s, box-shadow 0.3s;
+         box-shadow: 2px 5px 5px 2px black;
+}
+
+ .logo32{
+
+    height:100px ;
+    width: 100px;
+    border: 1px outset;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 260px;
+       transition: transform 0.3s, box-shadow 0.3s;
+        box-shadow: 2px 5px 5px 2px black;
+}
+
+.logo33{
+    height:100px ;
+    width: 100px;
+    border: 1px outset;
+    border-radius: 10px;
+     padding: 20px;
+     margin-left: 300px;
+        transition: transform 0.3s, box-shadow 0.3s;
+         box-shadow: 2px 5px 5px 2px black;
+}
+
+.logo34{
+     height:100px ;
+    width: 100px;
+    border: 1px outset;
+    border-radius: 10px;
+     padding: 20px;
+     margin-left: 270px;
+        transition: transform 0.3s, box-shadow 0.3s;
+         box-shadow: 2px 5px 5px 2px black;
+}
+
+.logo35{
+    height:100px ;
+    width: 100px;
+    border: 1px outset;
+    border-radius: 10px;
+     padding: 20px;
+     margin-left: 260px;
+        transition: transform 0.3s, box-shadow 0.3s;
+         box-shadow: 2px 5px 5px 2px black;
+}
+
+.logo36{
+    height:100px ;
+    width: 100px;
+    border: 1px outset;
+    border-radius: 10px;
+     padding: 20px;
+     margin-left: 260px;
+        transition: transform 0.3s, box-shadow 0.3s;
+         box-shadow: 2px 5px 5px 2px black;
+}
+
+.logo37{
+    height:100px ;
+    width: 100px;
+    border: 1px outset;
+    border-radius: 10px;
+     padding: 20px;
+     margin-left: 240px;
+        transition: transform 0.3s, box-shadow 0.3s;
+         box-shadow: 2px 5px 5px 2px black;
+}
+
+.logo38{
+
+    height:100px ;
+    width: 100px;
+    border: 1px outset;
+    border-radius: 10px;
+     padding: 20px;
+      margin-left: 260px;
+         transition: transform 0.3s, box-shadow 0.3s;
+          box-shadow: 2px 5px 5px 2px black;
+
+}
+.logo31:hover, .logo32:hover, .logo33:hover, .logo34:hover, .logo35:hover, .logo36:hover,
+.logo37:hover, .logo38:hover{
+
+     cursor: pointer;
+    transform: scale(0.9);
+    background-color: #303030;
+     transform: translatey(-15px);
+     transition: 1s;
+} 
+
+.header {
+
+    display: flex;
+    background-color: #686f8c;
+    top: 0px;
+    border: 1px solid black;
+    margin: 0 auto;
+    right: 0px;
+    left: 0px;
+    padding: 15px;
+    background-color: #303030;
+    border-radius: 10px;
+    
+    
+}
+
+/*css des prix d'affiche*/
+
+.prix{
+
+     border: 1px outset;
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+         box-shadow: 2px 5px 5px 2px #303030 ;
+}
+
+.prix:hover{
+ transform: scale(0.9);
+    background-color: #303030;
+     transform: translatex( 10px);
+     transition: 1s;
+
+}
+/*css des conteneurs  */
+
+.container0 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    
+
+}
+#containerx{
+
+    display: none;
+    justify-content: space-between;
+    overflow: scroll;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 60px;
+    margin-top: 100px;
+    background-color: gray;
+    box-shadow: 5px 5px 10px #303030;
+    filter: blur(20px);
+    transform: translateY(20px);
+    opacity: 0.9;
+    animation:  showContent 0.5s  1s linear 1 forwards;
+
+
+}
+
+
+
+.containery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerz{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/*css des images*/
+
+.image2{
+
+    height: 300px;
+    width: 300px;
+    border: 1px outset;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px 10px #303030;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+
+.image2:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    background-color: #cecece;
+     transform: translatey(-15px);
+     transform: scale(1.1);
+     transition: 1S;
+     transform-origin: center center;
+     
+}
+
+
+
+
+
+
+
+/* page de commande des articles */
+
+/* premier click */
+
+#commande{
+
+    display: none;
+    position: fixed;
+    overflow: scroll;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:#303030;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    border: 1px inset black;
+    filter: blur(20px);
+     opacity: 0.9;
+    animation:  showc 0.5s  1s linear 1 forwards;
+
+}
+
+#commande2{
+
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+     border: 1px inset black;
+     position: fixed;
+     background-color: #2F4F4F;
+}
+
+.détails{
+
+    border: none;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: #7c7676;
+
+    
+
+}
+
+.détails:hover {
+
+    background-color: #303030;
+    transform: translateX(30px);
+    transition: 1.5s;
+}
+#comm{
+
+    display: block;
+    gap: 30px;
+    
+}
+
+.block{
+
+    display: inline-block;
+}
+
+#fermer{
+
+padding: 5px;
+width: 50%;
+margin-left: 80px;
+margin-bottom: 20px;
+border-radius: 30px;
+}
+
+#fermer:hover{
+
+    cursor: pointer;
+    background-color: transparent;
+    transition: 1.5s;
+    
+}
+
+
+#commander1{
+
+padding: 5px;
+width: 50%;
+margin-left: 80px;
+margin-bottom: 20px;
+border-radius: 30px;
+}
+
+#commander1:hover{
+
+    cursor: pointer;
+    background-color: transparent;
+    transition: 1.5s;
+    
+}
+
+
+#commander2{
+
+padding: 5px;
+width: 50%;
+margin-left: 80px;
+margin-bottom: 20px;
+border-radius: 50px;
+
+}
+
+#commander2:hover{
+
+    cursor: pointer;
+    background-color: transparent;
+    transition: 1.5s;
+  
+    
+}
+
+#form{
+
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+#logo{
+
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#logo:hover{
+
+      cursor: pointer;
+    transform: scale(0.9);
+    background-color: #303030;
+     transform: translatey(-15px);
+     transition: 1s;
+}
+
+
+/*  deuxieme click*/
+
+
+#commande1{
+
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:#303030;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    border: 1px outset white
+}
+
+#logoA{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+#logoA:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    background-color: #303030;
+     transform: translatey(-15px);
+     transition: 1s;
+
+}
+
+
+.block1{
+
+    display: inline-block;
+}
+
+#fermer1{
+
+padding: 5px;
+width: 50%;
+margin-left: 80px;
+margin-bottom: 20px;
+border-radius: 50px;
+
+}
+
+#fermer1:hover{
+
+    background-color: transparent;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+/* page de paiement  des produits*/
+
+
+
+
+
+#pay1, #pay2, #pay3, #pay4{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+    margin: 20px;
+    
+}
+
+#pay1:hover, #pay2:hover, #pay3:hover, #pay4:hover{
+
+     cursor: pointer;
+    transform: scale(0.9);
+    background-color: silver;
+     transform: translatey(-15px);
+     transition: 2s;
+
+}
+
+.pain{
+
+    border: 1px inset white;
+    padding: 150px;
+    border-radius: 30px;
+    background-color: #303030;
+    margin-left: 50px;
+
+
+}
+
+#paye{
+    gap: 50px;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #2F4F4F;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    border: 1px outset black;
+    overflow: scroll;
+}
+
+#sortir{
+
+    border-radius: 360px;
+    padding: 8px;
+
+}
+
+#sortir:hover{
+
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px;
+    transform: translateX(2px)
+    
+}
+
+
+
+/* page du moyens de paiement : formulaire de commande de chaque réseaux*/
+
+/* formulaire wave */
+
+
+#wave{
+
+   
+
+    gap: 50px;
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background-color: #2F4F4F;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    padding: 300px;
+
+
+}
+
+#wavep{
+
+   border: 1px solid black;
+   padding: 30px; 
+   border-radius: 10px;
+    
+}
+
+#waven{
+
+    border: 1px solid black;
+   padding: 10px; 
+   border-radius: 10px;
+}
+
+#wavei{
+
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+      animation: 3s moving linear infinite;
+
+}
+
+#wavei:hover{
+
+      cursor: pointer;
+    transform: scale(0.9);
+    background-color: silver;
+     transform: translatey(-15px);
+}
+
+#wavet{
+
+    padding: 3px;
+    margin-left: 20px;
+    width: 20%;
+}
+
+#wavet:hover{
+
+    background-color: transparent;
+    transition: 1.2s;
+    
+}
+
+
+.labelwave{
+
+
+    color: white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+
+.forme{
+
+    border: 1px inset white;
+    width: 70%;
+    text-align: center;
+    padding: 50px;
+    margin-left: 50px;
+    margin-top: -250px;
+    border-radius: 50px;
+    background-color: #303030;
+
+}
+
+.forme::after{
+
+    content: '';
+    position: absolute;
+    width: 41%;
+    height: 590px;
+    background-color: black;
+    translate: -68% -80%;
+    z-index: -1;
+    border-radius: 30px;
+    padding: -20px;
+    animation:  3s spin linear infinite;
+    
+}
+
+
+.forme::after{
+
+    filter: blur(1rem);
+    opacity: 0.7;
+
+}
+
+
+#sor{
+
+        padding: 3px;
+           width: 20%;
+}
+
+#sor:hover{
+
+    background-color: transparent;
+    transition: 1.2s;
+    
+}
+
+/* formulaires mtn*/
+
+
+
+
+#mtn{
+
+   
+
+    
+     gap: 50px;
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background-color: #2F4F4F;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    padding: 300px;
+
+}
+
+#mtnp{
+
+   border: 1px solid black;
+   padding: 30px; 
+   border-radius: 10px;
+    
+}
+
+#mtnn{
+
+    border: 1px solid black;
+   padding: 10px; 
+   border-radius: 10px;
+    
+}
+
+#mtni{
+
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+     animation: 3s moving linear infinite;
+
+}
+
+#mtni:hover{
+
+      cursor: pointer;
+    transform: scale(0.9);
+    background-color: silver;
+     transform: translatey(-15px);
+}
+
+#mtnt{
+
+    padding: 3px;
+    margin-left: 20px;
+    width: 20%;
+}
+
+#mtnt:hover{
+
+    background-color: transparent;
+    transition: 1.2s;
+    
+}
+
+.mtnlabel{
+
+    color: white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+
+}
+
+
+.forme1{
+
+    border: 1px inset white;
+    width: 70%;
+    text-align: center;
+    padding: 50px;
+    margin-left: 50px;
+    margin-top: -250px;
+    border-radius: 50px;
+    background-color: #303030;
+
+}
+
+.forme1::after{
+
+    content: '';
+    position: absolute;
+    width: 41%;
+    height: 590px;
+    background-color: black;
+    translate: -68% -80%;
+    z-index: -1;
+    border-radius: 50px;
+    padding: -20px;
+    animation:  3s spin linear infinite;
+    
+}
+
+
+.forme1::after{
+
+    filter: blur(1rem);
+    opacity: 0.7;
+
+}
+
+#sort{
+
+        padding: 3px;
+        width: 20%;
+}
+
+#sort:hover{
+
+    background-color: transparent;
+    transition: 1.2s;
+    
+}
+
+/* formulaires orange */
+
+#orange{
+
+   
+
+     gap: 50px;
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background-color: #2F4F4F;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    padding: 300px;
+
+}
+
+#orangep{
+
+   border: 1px solid black;
+   padding: 30px; 
+   border-radius: 10px;
+    
+}
+
+#orangen{
+
+    border: 1px solid black;
+   padding: 10px; 
+   border-radius: 10px;
+    
+}
+
+#orangei{
+
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+    animation: 3s moving linear infinite;
+
+}
+
+#orangei:hover{
+
+      cursor: pointer;
+    transform: scale(0.9);
+    background-color: silver;
+     transform: translatey(-15px);
+}
+
+#oranget{
+
+    padding: 3px;
+    margin-left: 20px;
+    width: 20%;
+}
+
+#oranget:hover{
+
+    background-color: transparent;
+    transition: 1.2s;
+    
+}
+
+.labelorange{
+
+    color: white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+.forme2{
+
+    border: 1px inset white;
+    width: 70%;
+    text-align: center;
+    padding: 50px;
+    margin-left: 50px;
+    margin-top: -250px;
+    border-radius: 50px;
+    background-color: #303030;
+
+}
+
+.forme2::after{
+
+    content: '';
+    position: absolute;
+    width: 41%;
+    height: 590px;
+    background-color: black;
+    translate: -68% -80%;
+    z-index: -1;
+    border-radius: 30px;
+    padding: -20px;
+    animation:  3s spin linear infinite;
+    
+}
+
+
+.forme2::after{
+
+    filter: blur(1rem);
+    opacity: 0.7;
+
+}
+
+
+#so{
+
+        padding: 3px;
+        width: 20%;
+}
+
+#so:hover{
+
+    background-color: transparent;
+    transition: 1.2s;
+    
+}
+
+
+
+
+
+/* formulaires moov */
+
+#moov{
+
+   
+
+    gap: 50px;
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background-color: #2F4F4F;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    padding: 300px;
+
+}
+
+#moovp{
+
+   border: 1px solid black;
+   padding: 30px; 
+   border-radius: 10px;
+    
+}
+
+#moovn{
+
+    border: 1px solid black;
+   padding: 10px; 
+   border-radius: 10px;
+    
+}
+
+#moovi{
+
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+    animation: 3s moving linear infinite;
+}
+
+
+@keyframes moving {
+
+    from{
+
+        transform: rotateZ(0deg);
+
+    }
+
+    to {
+
+         transform: rotateZ(360deg);
+    }
+}
+
+#moovi:hover{
+
+      cursor: pointer;
+    transform: scale(0.9);
+    background-color: #303030;
+     transform: translatey(-25px);
+}
+
+
+#moovt{
+
+    padding: 4px;
+}
+
+#moovt:hover{
+
+    background-color: transparent;
+    transition: 1.2s;
+    
+}
+
+.labelmoov{
+
+    color: white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.forme3{
+
+    border: 1px inset white;
+    width: 70%;
+    text-align: center;
+    padding: 50px;
+    margin-left: 50px;
+    margin-top: -250px;
+    border-radius: 50px;
+    background-color: #303030;
+     
+    
+    
+}
+
+.forme3::after{
+
+    content: '';
+    position: absolute;
+    width: 42%;
+    height: 590px;
+    background-color: black;
+    translate:  -61% -80%;
+    z-index: -1;
+    border-radius: 50px;
+    padding: -20px;
+    animation:  3s spin linear infinite;
+    
+}
+
+@keyframes spin {
+
+    from{
+
+        --angle:0deg;
+
+    }
+
+    to {
+
+        --angle: 90deg;
+    }
+}
+
+
+.forme3::after{
+
+    filter: blur(1rem);
+    opacity: 0.7;
+
+}
+
+
+
+
+#sot{
+
+        padding: 4px;
+        width: 20%;
+        cursor: pointer;
+}
+#sot:hover{
+
+    background-color: transparent;
+    transition: 1.2s;
+
+}
+
+
+
+
+/* mot de passe */ 
+
+.image3{
+    height: 150px;
+    width: 150px;
+    border: 1Px solid white;
+    border-radius: 360px;
+}
+
+ p{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+
+
+}
+
+#container{
+
+
+    margin-left: 350px;
+    margin-top: 175px;
+    border: 1px solid white;
+    text-align: center;
+    padding: 60px;
+    width: 50%;
+    border-radius: 15px ;
+    color: white;
+    background-color: gray; 
+    transform: translateY(-50px);
+    filter: blur(20px);
+    opacity: 0.6;
+    animation:  showContent 0.5s  1s linear 1 forwards;
+}
+
+.h1{
+
+    border: 1px none ;
+    border-radius: 15px;
+}
+
+.noshade{
+
+    margin-left: 25%;
+    margin-top: -30px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px; 
+}
+
+@keyframes showContent {
+
+    to {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(-40px);
+        background-color: #997A8d;    
+    }
+    
+}
+
+
+@keyframes showc {
+
+    to {
+        opacity: 1;
+        filter: blur(0);
+        transition: 1.5s;  
+      
+    }
+    
+}
+
+
+#texte{
+
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#button{
+
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#button:hover{
+
+    cursor: pointer;
+    background-color: transparent;
+    transform: translateY(10px);
+
+}
+
+#h4{
+    display: none;
+    
+
+}
+
+#h3{
+    display: none;
+    border-radius: 20px;
+}
+
+
+/*  responsivité du site */
+
+
+@media screen and (max-width:1499px){
+
+    .logo2{
+
+    margin: auto;
+
+    }
+
+    #containerx{
+
+    padding: 30px;
+    }
+
+    #fermer{
+
+    margin-right: 30px;
+}
+
+#form{
+
+
+    margin-left: 100px;
+    margin-top: -10px;
+    
+}
+
+#form1{
+
+margin: 20px;
+
+}
+
+.pain{
+
+    margin-right: 30px;
+    padding: 50px;
+    margin-bottom: 40px;
+}
+#sortir{
+
+    margin-right: 20px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
