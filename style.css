@@ -17,6 +17,9 @@
 h1{
 
     font-weight: bold;
+    color: black;
+        text-shadow: 3px 2px 3px black;
+
     
 }
 
@@ -43,91 +46,91 @@ h1{
 .logo31{
     height:100px ;
     width: 100px;
-    border: 1px outset;
+    border: none;
     border-radius: 10px;
      padding: 20px;
      margin-left: 100px;
         transition: transform 0.3s, box-shadow 0.3s;
-         box-shadow: 2px 5px 5px 2px black;
+       
 }
 
  .logo32{
 
     height:100px ;
     width: 100px;
-    border: 1px outset;
+    border: none;
     border-radius: 10px;
     padding: 20px;
     margin-left: 260px;
        transition: transform 0.3s, box-shadow 0.3s;
-        box-shadow: 2px 5px 5px 2px black;
+      
 }
 
 .logo33{
     height:100px ;
     width: 100px;
-    border: 1px outset;
+    border: none;
     border-radius: 10px;
      padding: 20px;
      margin-left: 300px;
         transition: transform 0.3s, box-shadow 0.3s;
-         box-shadow: 2px 5px 5px 2px black;
+       
 }
 
 .logo34{
      height:100px ;
     width: 100px;
-    border: 1px outset;
+    border: none;
     border-radius: 10px;
      padding: 20px;
      margin-left: 270px;
         transition: transform 0.3s, box-shadow 0.3s;
-         box-shadow: 2px 5px 5px 2px black;
+      
 }
 
 .logo35{
     height:100px ;
     width: 100px;
-    border: 1px outset;
+    border: none;
     border-radius: 10px;
      padding: 20px;
-     margin-left: 260px;
-        transition: transform 0.3s, box-shadow 0.3s;
-         box-shadow: 2px 5px 5px 2px black;
+     margin-left: 260px;  
+     transition: transform 0.3s, box-shadow 0.3s;
+     
 }
 
 .logo36{
     height:100px ;
     width: 100px;
-    border: 1px outset;
+    border: none;
     border-radius: 10px;
      padding: 20px;
      margin-left: 260px;
         transition: transform 0.3s, box-shadow 0.3s;
-         box-shadow: 2px 5px 5px 2px black;
+     
 }
 
 .logo37{
     height:100px ;
     width: 100px;
-    border: 1px outset;
+    border: none;
     border-radius: 10px;
      padding: 20px;
      margin-left: 240px;
         transition: transform 0.3s, box-shadow 0.3s;
-         box-shadow: 2px 5px 5px 2px black;
+     
 }
 
 .logo38{
 
     height:100px ;
     width: 100px;
-    border: 1px outset;
+    border: none;
     border-radius: 10px;
      padding: 20px;
       margin-left: 260px;
          transition: transform 0.3s, box-shadow 0.3s;
-          box-shadow: 2px 5px 5px 2px black;
+          
 
 }
 .logo31:hover, .logo32:hover, .logo33:hover, .logo34:hover, .logo35:hover, .logo36:hover,
@@ -160,11 +163,11 @@ h1{
 
 .prix{
 
-     border: 1px outset;
+     border: none;
     border-radius: 5px;
     padding: 10px;
     transition: transform 0.3s, box-shadow 0.3s;
-         box-shadow: 2px 5px 5px 2px #303030 ;
+     box-shadow: 5px 5px 5px 2px #303030 ;
 }
 
 .prix:hover{
@@ -172,8 +175,13 @@ h1{
     background-color: #303030;
      transform: translatex( 10px);
      transition: 1s;
+        font-weight: bold;
+        color: gray;
+        text-shadow: 3px 2px 3px gray;
 
-}
+    }
+
+
 /*css des conteneurs  */
 
 .container0 {
@@ -190,14 +198,14 @@ h1{
     display: none;
     justify-content: space-between;
     overflow: scroll;
-    border: 1px solid black;
+    border: none;
     border-radius: 30px;
     padding: 20px;
     margin: 60px;
     margin-top: 100px;
     background-color: gray;
-    box-shadow: 5px 5px 10px #303030;
-    filter: blur(20px);
+    box-shadow: 5px 8px 10px 8px #303030;
+    filter: blur(10px);
     transform: translateY(20px);
     opacity: 0.9;
     animation:  showContent 0.5s  1s linear 1 forwards;
@@ -226,7 +234,7 @@ h1{
 
     height: 300px;
     width: 300px;
-    border: 1px outset;
+    border: none;
     border-radius: 10px;
     margin: 50px;
     padding: 30px;
@@ -272,20 +280,20 @@ h1{
     align-items: center;
     color: white;
     border-radius: 5px;
-    border: 1px inset black;
+    border: none;
     filter: blur(20px);
-     opacity: 0.9;
+    opacity: 0.9;
     animation:  showc 0.5s  1s linear 1 forwards;
 
 }
 
 #commande2{
 
-    border: 1px solid white;
+    border: none;
     border-radius: 20px;
     display: flex;
-    padding: 10px;
-     border: 1px inset black;
+    padding: 5px;
+
      position: fixed;
      background-color: #2F4F4F;
 }
@@ -294,12 +302,10 @@ h1{
 
     border: none;
     border-radius: 10px;
-    margin: 30px;
+    margin: 20px;
     text-align: center;
     padding: 20px;
     background-color: #7c7676;
-
-    
 
 }
 
@@ -340,7 +346,6 @@ border-radius: 30px;
 
 
 #commander1{
-
 padding: 5px;
 width: 50%;
 margin-left: 80px;
@@ -348,12 +353,11 @@ margin-bottom: 20px;
 border-radius: 30px;
 }
 
-#commander1:hover{
 
+#commander1:hover{
     cursor: pointer;
     background-color: transparent;
     transition: 1.5s;
-    
 }
 
 
@@ -376,19 +380,14 @@ border-radius: 50px;
     
 }
 
-#form{
-
-    margin: 20px;
-    padding: 5px;
-    text-align: center;
-}
 
 #logo{
 
     height: 100px;
     width: 100px;
-    border: 1px solid black;
+    border: none;
     border-radius: 10px;
+     padding: 5px;
 }
 
 #logo:hover{
@@ -396,7 +395,7 @@ border-radius: 50px;
       cursor: pointer;
     transform: scale(0.9);
     background-color: #303030;
-     transform: translatey(-15px);
+     transform: translatey(-40px);
      transition: 1s;
 }
 
@@ -418,14 +417,15 @@ border-radius: 50px;
     align-items: center;
     color: white;
     border-radius: 5px;
-    border: 1px outset white
+    border: none
 }
 
 #logoA{
     height: 100px;
     width: 100px;
-    border: 1px solid black;
+    border: none;
     border-radius: 10px;
+    padding: 5px;
 
 }
 
@@ -433,7 +433,7 @@ border-radius: 50px;
     cursor: pointer;
     transform: scale(0.9);
     background-color: #303030;
-     transform: translatey(-15px);
+     transform: translatey(-40px);
      transition: 1s;
 
 }
@@ -441,7 +441,8 @@ border-radius: 50px;
 
 .block1{
 
-    display: inline-block;
+    display: block;
+
 }
 
 #fermer1{
@@ -453,7 +454,6 @@ margin-bottom: 20px;
 border-radius: 50px;
 
 }
-
 #fermer1:hover{
 
     background-color: transparent;
@@ -461,20 +461,62 @@ border-radius: 50px;
     transition: 1.5s;
 }
 
+
+
+
+.info {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 110px;
+}
+
+#form {
+
+
+    padding: 5px;
+        border: none;
+        border-radius: 5px;
+ 
+}
+
+#form:hover{
+
+    background-color: transparent;
+    transition: 1.5s;
+    border: none;
+}
+
+
+#form1:hover{
+
+    background-color: transparent;
+    transition: 1.5s;
+    border: none; 
+}
+
+
+#form1 {
+
+
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+
+
 /* page de paiement  des produits*/
-
-
-
-
 
 #pay1, #pay2, #pay3, #pay4{
     height: 100px;
     width: 100px;
-    border: 1px solid black;
+    border: none;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px black;
-    margin: 20px;
-    
+    margin: 20px;   
 }
 
 #pay1:hover, #pay2:hover, #pay3:hover, #pay4:hover{
@@ -489,7 +531,7 @@ border-radius: 50px;
 
 .pain{
 
-    border: 1px inset white;
+    border: none;
     padding: 150px;
     border-radius: 30px;
     background-color: #303030;
@@ -512,7 +554,7 @@ border-radius: 50px;
     align-items: center;
     color: white;
     border-radius: 5px;
-    border: 1px outset black;
+    border: none;
     overflow: scroll;
 }
 
@@ -546,7 +588,7 @@ border-radius: 50px;
     gap: 50px;
     display: none;
     position: fixed;
-    top: 0px;
+    top: 0;
     left: 0;
     right: 0;
     background-color: #2F4F4F;
@@ -555,6 +597,7 @@ border-radius: 50px;
     color: white;
     border-radius: 5px;
     padding: 300px;
+    margin-top: -25px;
 
 
 }
@@ -621,11 +664,11 @@ border-radius: 50px;
 
 .forme{
 
-    border: 1px inset white;
+    border: none;
     width: 70%;
     text-align: center;
     padding: 50px;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: -250px;
     border-radius: 50px;
     background-color: #303030;
@@ -639,7 +682,7 @@ border-radius: 50px;
     width: 41%;
     height: 590px;
     background-color: black;
-    translate: -68% -80%;
+    translate: -69% -80%;
     z-index: -1;
     border-radius: 30px;
     padding: -20px;
@@ -672,13 +715,7 @@ border-radius: 50px;
 /* formulaires mtn*/
 
 
-
-
-#mtn{
-
-   
-
-    
+#mtn{    
      gap: 50px;
     display: none;
     position: fixed;
@@ -691,12 +728,13 @@ border-radius: 50px;
     color: white;
     border-radius: 5px;
     padding: 300px;
+    margin-top: -25px;
 
 }
 
 #mtnp{
 
-   border: 1px solid black;
+   border: none;
    padding: 30px; 
    border-radius: 10px;
     
@@ -756,11 +794,11 @@ border-radius: 50px;
 
 .forme1{
 
-    border: 1px inset white;
+    border: none;
     width: 70%;
     text-align: center;
     padding: 50px;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: -250px;
     border-radius: 50px;
     background-color: #303030;
@@ -774,7 +812,7 @@ border-radius: 50px;
     width: 41%;
     height: 590px;
     background-color: black;
-    translate: -68% -80%;
+    translate: -69% -80%;
     z-index: -1;
     border-radius: 50px;
     padding: -20px;
@@ -821,12 +859,13 @@ border-radius: 50px;
     color: white;
     border-radius: 5px;
     padding: 300px;
+    margin-top: -25px;
 
 }
 
 #orangep{
 
-   border: 1px solid black;
+   border: none;
    padding: 30px; 
    border-radius: 10px;
     
@@ -834,7 +873,7 @@ border-radius: 50px;
 
 #orangen{
 
-    border: 1px solid black;
+    border: none;
    padding: 10px; 
    border-radius: 10px;
     
@@ -844,7 +883,7 @@ border-radius: 50px;
 
     height: 100px;
     width: 100px;
-    border: 1px solid black;
+    border: none;
     border-radius: 10px;
     margin-left: 20px;
     animation: 3s moving linear infinite;
@@ -884,17 +923,16 @@ border-radius: 50px;
 
 .forme2{
 
-    border: 1px inset white;
+    border: none;
     width: 70%;
     text-align: center;
     padding: 50px;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: -250px;
     border-radius: 50px;
     background-color: #303030;
 
 }
-
 .forme2::after{
 
     content: '';
@@ -954,12 +992,13 @@ border-radius: 50px;
     color: white;
     border-radius: 5px;
     padding: 300px;
+    margin-top: -25px;
 
 }
 
 #moovp{
 
-   border: 1px solid black;
+   border: none;
    padding: 30px; 
    border-radius: 10px;
     
@@ -967,7 +1006,7 @@ border-radius: 50px;
 
 #moovn{
 
-    border: 1px solid black;
+    border: none;
    padding: 10px; 
    border-radius: 10px;
     
@@ -977,7 +1016,8 @@ border-radius: 50px;
 
     height: 100px;
     width: 100px;
-    border: 1px solid black;
+    border: none;
+
     border-radius: 10px;
     margin-left: 20px;
     animation: 3s moving linear infinite;
@@ -1029,11 +1069,11 @@ border-radius: 50px;
 
 .forme3{
 
-    border: 1px inset white;
+    border: none;
     width: 70%;
     text-align: center;
     padding: 50px;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: -250px;
     border-radius: 50px;
     background-color: #303030;
@@ -1049,7 +1089,7 @@ border-radius: 50px;
     width: 42%;
     height: 590px;
     background-color: black;
-    translate:  -61% -80%;
+    translate:  -62% -80%;
     z-index: -1;
     border-radius: 50px;
     padding: -20px;
@@ -1120,8 +1160,8 @@ border-radius: 50px;
 
 
     margin-left: 350px;
-    margin-top: 175px;
-    border: 1px solid white;
+    margin-top: 80px;
+    border: none;
     text-align: center;
     padding: 60px;
     width: 50%;
@@ -1254,12 +1294,130 @@ margin: 20px;
 }
 
 
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+
+.image3 {
+    height: 100px;
+    width: 100px;
+    border: 1Px solid white;
+    border-radius: 360px;
+}
+
+p {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+
+
+}
+
+#container {
+
+
+    margin-left: 70px;
+    margin-top: 75px;
+    border: none;
+    box-shadow: 2px 8px 4px 2px rgb(88, 85, 85);
+    text-align: center;
+    padding: 60px;
+    width: 70%;
+    border-radius: 15px;
+    color: white;
+    background-color: gray;
+    transform: translateY(-50px);
+    filter: blur(20px);
+    opacity: 0.6;
+    animation: showContent 0.5s 1s linear 1 forwards;
+}
+
+.h1 {
+
+    border:  none;
+    border-radius: 15px;
+}
+
+.noshade {
+
+    margin-left: 25%;
+    margin-top: -30px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+@keyframes showContent {
+
+    to {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(-40px);
+        background-color: #997A8d;
+    }
+
+}
+
+
+@keyframes showc {
+
+    to {
+        opacity: 1;
+        filter: blur(0);
+        transition: 1.5s;
+
+    }
+
+}
+
+
+#texte {
+
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#button {
+
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#button:hover {
+
+    cursor: pointer;
+    background-color: transparent;
+    transform: translateY(3px);
+
+}
+
+#h4 {
+    display: none;
+
+
+}
+
+#h3 {
+    display: none;
+    border-radius: 20px;
+}
+
 }
 
 
 
 
-
+}
 
 
 
